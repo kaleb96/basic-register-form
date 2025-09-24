@@ -1,3 +1,58 @@
 body {
   background-color: #3a3a3d;
+  color: #6b6b6e;
+}
+
+button {
+  width: 107px;
+}
+
+.naverTitle {
+  display: flex;
+  width: 480px;
+  color: #03c75a;
+  font-weight: 1000;
+  font-size: 22px;
+  margin-bottom: 40px;
+}
+
+.buttonContainer {
+  border: 1px solid #6b6b6e;
+  border-radius: 5px;
+  display: flex;
+  div {
+    border: 1px solid #6b6b6e;
+    padding: 5px;
+    width: 97px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+  }
+}
+
+.dotStyle {
+  width: 460px;
+  color: red;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.errorText {
+  display: flex;
+  flex-direction: column;
+  width: 475px;
+  padding: 5px;
+}
+input {
+  background-color: transparent;
+  border: none;
+}
+.inputCommon {
+  display: flex;
+  border: 1px solid #6b6b6e;
+  width: 460px;
+}
+
+.selectBox {
+  cursor: pointer;
 }
